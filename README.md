@@ -7,12 +7,12 @@ XEBEC Brush Turning Machine の取扱説明書・マニュアル集です。
 このリポジトリには以下のマニュアルが含まれています：
 
 ### XEBEC Brush Turning Machine-C
-- [日本語版](20250801_JP_XEBEC%20Brush%20Turning%20Machine-C_Instruction%20Manual/content/78217585.html)
-- [English Version](20250801_EN_XEBEC%20Brush%20Turning%20Machine-C_Instruction%20Manual/content/101969088.html)
+- [日本語版](20250801_JP_XEBEC%20Brush%20Turning%20Machine-C_Instruction%20Manual/content/index.html)
+- [English Version](20250801_EN_XEBEC%20Brush%20Turning%20Machine-C_Instruction%20Manual/content/index.html)
 
 ### XEBEC Brush Turning Machine-S
-- [日本語版](20250801_JP_XEBEC%20Brush%20Turning%20Machine-S_Instruction%20Manual/content/140836884.html)
-- [English Version](20250801_EN_XEBEC%20Brush%20Turning%20Machine-S_Instruction%20Manual/content/247235302.html)
+- [日本語版](20250801_JP_XEBEC%20Brush%20Turning%20Machine-S_Instruction%20Manual/content/index.html)
+- [English Version](20250801_EN_XEBEC%20Brush%20Turning%20Machine-S_Instruction%20Manual/content/index.html)
 
 ## 🌐 オンラインでの閲覧
 
