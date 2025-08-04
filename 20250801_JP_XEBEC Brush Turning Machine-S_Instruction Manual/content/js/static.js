@@ -1,0 +1,17 @@
+var CONST_TEXT = {
+  openall: 'すべてを開く'
+ ,closeall: 'すべてを閉じる'
+ ,back: '戻る'
+ ,gototop: 'ページの先頭へ'
+ ,search: '検索'
+ ,inputsearchword: '検索ワードを入力してください。'
+ ,searchresult: '検索結果'
+ ,searchnopage: ' その検索ワードを含むページはありません。'
+ ,inputsearchword: '検索ワードを入力してください。'
+ ,inputminsearchword: '検索キーワードを%d文字以上入力してください。'
+ ,toomanykeywords: '検索ワードが多すぎます。\n{0}語以下で検索してください。'
+ ,toomanyresults: '検索結果が{0} 件を超えました。\nそのため、{0}件の検索結果のみを表示しています。\n別のキーワードや新たなキーワードを入力することで、検索結果を絞り込むことができます。'
+ ,numberofdisplayedresults: '表示件数 : '
+ ,numberofresults: '件数 : '
+ ,cases: '件'
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XEBEC Brush Turning Machine - マニュアル一覧</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .content {
+            padding: 40px;
+        }
+        .manuals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .manual-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+        .manual-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        .manual-card h3 {
+            color: #2c3e50;
+            margin: 0 0 15px 0;
+            font-size: 1.3em;
+        }
+        .manual-card p {
+            color: #6c757d;
+            margin: 0 0 20px 0;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .language-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+        .language-badge.en {
+            background: #3498db;
+        }
+        .language-badge.jp {
+            background: #e74c3c;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            border-top: 1px solid #e9ecef;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>XEBEC Brush Turning Machine</h1>
+            <p>取扱説明書・マニュアル一覧</p>
+        </div>
+        
+        <div class="content">
+            <h2>マニュアル一覧</h2>
+            <p>以下のマニュアルからお選びください：</p>
+            
+            <div class="manuals-grid">
+                <div class="manual-card">
+                    <h3>
+                        XEBEC Brush Turning Machine-C
+                        <span class="language-badge jp">日本語</span>
+                    </h3>
+                    <p>XEBEC Brush Turning Machine-C の日本語取扱説明書です。</p>
+                    <a href="20250801_JP_XEBEC Brush Turning Machine-C_Instruction Manual/content/78217585.html" class="btn">マニュアルを開く</a>
+                </div>
+                
+                <div class="manual-card">
+                    <h3>
+                        XEBEC Brush Turning Machine-C
+                        <span class="language-badge en">English</span>
+                    </h3>
+                    <p>XEBEC Brush Turning Machine-C instruction manual in English.</p>
+                    <a href="20250801_EN_XEBEC Brush Turning Machine-C_Instruction Manual/content/101969088.html" class="btn">Open Manual</a>
+                </div>
+                
+                <div class="manual-card">
+                    <h3>
+                        XEBEC Brush Turning Machine-S
+                        <span class="language-badge jp">日本語</span>
+                    </h3>
+                    <p>XEBEC Brush Turning Machine-S の日本語取扱説明書です。</p>
+                    <a href="20250801_JP_XEBEC Brush Turning Machine-S_Instruction Manual/content/140836884.html" class="btn">マニュアルを開く</a>
+                </div>
+                
+                <div class="manual-card">
+                    <h3>
+                        XEBEC Brush Turning Machine-S
+                        <span class="language-badge en">English</span>
+                    </h3>
+                    <p>XEBEC Brush Turning Machine-S instruction manual in English.</p>
+                    <a href="20250801_EN_XEBEC Brush Turning Machine-S_Instruction Manual/content/247235302.html" class="btn">Open Manual</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 XEBEC Brush Turning Machine Manuals</p>
+        </div>
+    </div>
+</body>
+</html> 

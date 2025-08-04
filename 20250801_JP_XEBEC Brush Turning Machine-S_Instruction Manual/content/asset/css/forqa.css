@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* #page-footer .copyright {
+  margin-bottom: 15px;
+} */
+.addtakashi {
+  position: fixed;
+  right: 40px;
+  bottom: 70px;
+  display: flex;
+}
+
+.addtakashi a {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #00A5A3;
+  border: 3px solid #00A5A3;
+  transition: 0.3s;
+  padding: 6px 20px;
+  font-weight: bold;
+}
+
+.addtakashi a:first-of-type {
+  margin-right: 16px;
+}
+
+.addtakashi a:hover {
+  opacity: 0.8;
+}
+
+.addtakashi_icon {
+  display: block;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.addtakashi span {
+  display: block;
+}
+
+.addtakashi_arrow {
+  position: relative;
+  border: 2px solid #00A5A3;
+}
+
+.addtakashi_arrow:before,
+.addtakashi_arrow:after {
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  content: "";
+}
+
+.addtakashi_arrow:before {
+  margin-left: -12px;
+  border-color: transparent;
+  border-top-color: #00A5A3;
+  border-width: 12px;
+}
+
+.addtakashi_arrow:after {
+  margin-left: -8px;
+  border-color: transparent;
+  border-top-color: white;
+  border-width: 8px;
+}
+
